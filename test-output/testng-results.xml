@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-17T12:03:18 EET" name="All Test Suite" finished-at="2024-10-17T12:07:20 EET" duration-ms="242313">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-17T12:03:18 EET" name="SauceDemo Chrome" finished-at="2024-10-17T12:04:28 EET" duration-ms="69811">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:18 EET" name="setUpClass" finished-at="2024-10-17T12:03:18 EET" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16024b49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:18 EET" name="beforeClass" finished-at="2024-10-17T12:03:18 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:18 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:03:28 EET" duration-ms="9725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can add products from the landing page and displayed successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Products to the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:28 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:03:37 EET" duration-ms="8887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:37 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:03:46 EET" duration-ms="8818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cancel Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:46 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:03:55 EET" duration-ms="9417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can remove products from the landing page and reflected successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Remove Products from the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:03:55 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:03 EET" duration-ms="8500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sorting Alphabetically function"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sorting Products Alphabetically"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:04:03 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:11 EET" duration-ms="7509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can login successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:04:11 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:19 EET" duration-ms="8231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can logout successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:04:19 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:27 EET" duration-ms="8008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the added products are the same ones exits in the shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["View products in the shopping cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:04:27 EET" name="afterClass" finished-at="2024-10-17T12:04:27 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@7bd4937b]" started-at="2024-10-17T12:04:27 EET" name="tearDownClass" finished-at="2024-10-17T12:04:28 EET" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- SauceDemo Chrome -->
+    <test started-at="2024-10-17T12:04:28 EET" name="SauceDemo Firefox" finished-at="2024-10-17T12:06:14 EET" duration-ms="106117">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:04:28 EET" name="setUpClass" finished-at="2024-10-17T12:04:28 EET" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53f94afe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:04:28 EET" name="beforeClass" finished-at="2024-10-17T12:04:28 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:04:28 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:40 EET" duration-ms="12363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can add products from the landing page and displayed successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Products to the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:04:40 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:04:53 EET" duration-ms="12585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:04:53 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:05:05 EET" duration-ms="12535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cancel Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:05:05 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:05:18 EET" duration-ms="13292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can remove products from the landing page and reflected successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Remove Products from the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:05:18 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:05:31 EET" duration-ms="12513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sorting Alphabetically function"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sorting Products Alphabetically"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:05:31 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:05:45 EET" duration-ms="14066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can login successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:05:45 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:05:59 EET" duration-ms="13688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can logout successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:05:59 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:14 EET" duration-ms="15002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the added products are the same ones exits in the shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["View products in the shopping cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:06:14 EET" name="afterClass" finished-at="2024-10-17T12:06:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@4659191b]" started-at="2024-10-17T12:06:14 EET" name="tearDownClass" finished-at="2024-10-17T12:06:14 EET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- SauceDemo Firefox -->
+    <test started-at="2024-10-17T12:06:14 EET" name="SauceDemo Edge" finished-at="2024-10-17T12:07:20 EET" duration-ms="66348">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:14 EET" name="setUpClass" finished-at="2024-10-17T12:06:14 EET" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@304e1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:14 EET" name="beforeClass" finished-at="2024-10-17T12:06:14 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:14 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:22 EET" duration-ms="8228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can add products from the landing page and displayed successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Products to the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:22 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:31 EET" duration-ms="8901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:31 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:40 EET" duration-ms="8747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cancel Checkout of empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout of empty cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:40 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:48 EET" duration-ms="8069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can remove products from the landing page and reflected successfully in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Remove Products from the Shopping Cart Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:48 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:06:56 EET" duration-ms="8080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sorting Alphabetically function"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sorting Products Alphabetically"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:06:56 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:07:04 EET" duration-ms="7800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can login successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:07:04 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:07:12 EET" duration-ms="8144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user can logout successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:07:12 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-17T12:07:20 EET" duration-ms="8332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the added products are the same ones exits in the shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["View products in the shopping cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:07:20 EET" name="afterClass" finished-at="2024-10-17T12:07:20 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@4b0d79fc]" started-at="2024-10-17T12:07:20 EET" name="tearDownClass" finished-at="2024-10-17T12:07:20 EET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- SauceDemo Edge -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

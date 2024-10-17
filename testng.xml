@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="SauceDemo Chrome">
+        <parameter name="browserType" value="Chrome"/>
+        <classes>
+            <class name="testrunner.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="SauceDemo Firefox">
+        <parameter name="browserType" value="firefox"/>
+        <classes>
+            <class name="testrunner.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="SauceDemo Edge">
+        <parameter name="browserType" value="Edge"/>
+        <classes>
+            <class name="testrunner.TestRunner"/>
+        </classes>
+    </test>
+
+
+</suite>
